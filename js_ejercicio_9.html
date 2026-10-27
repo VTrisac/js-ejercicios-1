@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 9 · Lista de tareas con localStorage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">← Índice</a>
+    <strong>Ejercicio 9</strong>
+  </header>
+  <main>
+    <section class="card">
+      <h1>Lista de tareas con localStorage</h1>
+      <p class="lead">Las tareas se guardan en el navegador y sobreviven a la recarga.</p>
+      <form id="form-tarea" class="row">
+        <input id="input-tarea" type="text" placeholder="Nueva tarea" autocomplete="off">
+        <button type="submit">Añadir</button>
+      </form>
+      <ul class="list" id="lista-tareas"></ul>
+      <div class="row"><button id="btn-limpiar" class="secondary">Limpiar completadas</button></div>
+    </section>
+  </main>
+  <script src="js_ejercicio9.js"></script>
+</body>
+</html>

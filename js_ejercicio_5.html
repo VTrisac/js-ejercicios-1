@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 5 · Calculadora sencilla</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">← Índice</a>
+    <strong>Ejercicio 5</strong>
+  </header>
+  <main>
+    <section class="card">
+      <h1>Calculadora sencilla</h1>
+      <p class="lead">Introduce dos números y elige la operación.</p>
+      <div class="row">
+        <input id="num1" type="number" placeholder="Número 1" step="any">
+        <input id="num2" type="number" placeholder="Número 2" step="any">
+      </div>
+      <div class="row">
+        <button data-op="sumar">Sumar</button>
+        <button data-op="restar">Restar</button>
+        <button data-op="multiplicar">Multiplicar</button>
+        <button data-op="dividir">Dividir</button>
+      </div>
+      <p class="output" id="resultado"></p>
+    </section>
+  </main>
+  <script src="js_ejercicio5.js"></script>
+</body>
+</html>
